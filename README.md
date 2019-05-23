@@ -1,5 +1,8 @@
 # Xamarin iOS binding WeChatSDK v1.8.31
 
+### NuGet 安装
+- [Xamarin.iOS.WechatOpenSDK](https://www.nuget.org/packages/Xamarin.iOS.WechatOpenSDK) [![NuGet](https://img.shields.io/nuget/v/Xamarin.iOS.WechatOpenSDK.svg?label=NuGet)](https://www.nuget.org/packages/Xamarin.iOS.WechatOpenSDK)
+
 
 - #### 在 ```AppDelegate.cs``` 的 ```didFinishLaunchingWithOptions``` 函数中向微信注册ID
 
