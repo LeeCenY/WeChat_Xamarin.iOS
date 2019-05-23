@@ -82,6 +82,9 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.iOS" />
+    <Reference Include="WeChat_Xamarin">
+      <HintPath>..\packages\Xamarin.iOS.WechatOpenSDK.1.8.3.1\lib\xamarinios10\WeChat_Xamarin.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
@@ -97,6 +100,7 @@
   <ItemGroup>
     <None Include="Info.plist" />
     <None Include="Entitlements.plist" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
@@ -105,12 +109,6 @@
     <Compile Include="ViewController.designer.cs">
       <DependentUpon>ViewController.cs</DependentUpon>
     </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\WeChat_Xamarin\WeChat_Xamarin.csproj">
-      <Project>{8273E69D-D0A0-4EA7-8C06-C3B1F4BD3357}</Project>
-      <Name>WeChat_Xamarin</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
